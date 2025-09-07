@@ -2,14 +2,14 @@
 For the second exercise of INDA, you are going to practice modeling objects in Java. You are going to acquaint yourself with the components of a Java class.
 
 ### 💀 Deadline
-This work should be completed before the exercise, on **Friday 13th September**.
+This work should be completed before the exercise, on **Friday 12th September**.
 
 ### 👩‍🏫 Instructions
 For instructions on how to do and submit the assignment, please see the
-[assignments section of the course instructions](https://gits-15.sys.kth.se/inda-24/course-instructions#assignments).
+[assignments section of the course instructions](https://gits-15.sys.kth.se/inda-25/course-instructions#assignments).
 
 ### 📝 Preparation
-Read and answer all questions in [Module 2: Looking Inside Classes](https://qbl.sys.kth.se/sections/dd1337_programming/container/looking_inside_classes)
+Read and answer all questions in [Module 2: Looking Inside Classes](https://qbl.sys.kth.se/sections/dd1337_ht25_programming/container/looking_inside_classes)
 
 > **Assistant's Note:** The OLI material and tasks might be slightly out of line this year, so it is ok to read ahead if you did not find all the material.
 
@@ -28,11 +28,17 @@ This week's learning goals include:
 ### 🚨 Troubleshooting Guide
 If you have any questions or problems, follow this procedure: <br/>
 
-1. Look at this week's [posted issues](https://gits-15.sys.kth.se/inda-24/help/issues). Are other students asking about your problem?
-2. If not, post a question yourself by creating a [New Issue](https://gits-15.sys.kth.se/inda-24/help/issues/new). Add a descriptive title, beginning with "Task *x*: *summary of problem here*"
+1. Look at this week's [posted issues](https://gits-15.sys.kth.se/inda-25/help/issues). Are other students asking about your problem?
+2. If not, post a question yourself by creating a [New Issue](https://gits-15.sys.kth.se/inda-25/help/issues/new). Add a descriptive title, beginning with "Task *x*: *summary of problem here*"
 3. Ask a TA in person during the [weekly lab](https://queue.csc.kth.se/Queue/INDA). Check your schedule to see when the next lab is.
 
 We encourage you to discuss with your course friends, **but do not share answers!** Similarily, use of any AI services 🤖 are great to help explain things, **but please do not submit AI-generated solutions** - you must be both responsible for your own solutions and must be able to explain them under examination.
+
+### Make a Plan
+- Check your feedback on last week's issue tracker for a review and tips!
+- Open issues for your plan in the [issue tracker](/repo/issues).
+- Commit at least once per issue.
+- Reference issues from commit messages using `Fixes #N` to automatically close them.
 
 ### 🏛 Assignment
 
@@ -400,18 +406,16 @@ public class Horse {
 > **Assistant's Note:** Think about the *local scope*, *global variables* and *instance fields* of the provided examples.
 
 ### ❎ Checklist 
-- [ ] **OPTIONAL:** Create three indamons directly in the main method and print their information to the console. Delete this code when done. 
-- [ ] Create five fields for the indamon class: `String name`, `int hp`, `int attack`, `int defense`, and `boolean fainted`. Test modifying their values directly using the dot operator on an indamon object.
-- [ ] Create getters and setters for all fields, and use these to access and modify the indamons fields. 
-- [ ] Create a constructor method for the indamon class and create a few indamons using the constructor only.
-- [ ] Make the `printInfo()` method that prints all information about the indamon, (name, hp, attack, defense, and fainted status). 
-- [ ] Create an `attack()` method so indamons can attack each other. The method should take the indamon which is being attacked as an argument and print the events of the battle. 
-- [ ] Look at the variable shadowing examples.
+- [ ] Cloned your repository to your local computer
+- [ ] Made a solid plan using issues
+- [ ] Completed all exercises to be best of your ability
+- [ ] Closed issues for completed exercises (with "Fixes #N" in commit messages)
+- [ ] Pushed your work to KTH GitHub!
 
 > **Assistant's note:** We have added this checklist for you to make a final check before handing in your work. You don't have to tick the boxes unless you want to (to tick a box, place an "x" within the brackets when editing the README.md)
 
 ### 🐞 Bugs and errors?
-If you find any inconsistences or errors in this exercise, please open a [New Issue](https://gits-15.sys.kth.se/inda-24/help/issues/new) with the title "Task *x* Error: *summary of error here*". Found bugs will be rewarded by mentions in the acknowledgment section.
+If you find any inconsistences or errors in this exercise, please open a [New Issue](https://gits-15.sys.kth.se/inda-25/help/issues/new) with the title "Task *x* Error: *summary of error here*". Found bugs will be rewarded by mentions in the acknowledgment section.
 
 ### 🙏  Acknowledgment
 This task was designed by                <br>
