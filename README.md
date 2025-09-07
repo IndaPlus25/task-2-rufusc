@@ -34,9 +34,10 @@ If you have any questions or problems, follow this procedure: <br/>
 
 We encourage you to discuss with your course friends, **but do not share answers!** Similarily, use of any AI services 🤖 are great to help explain things, **but please do not submit AI-generated solutions** - you must be both responsible for your own solutions and must be able to explain them under examination.
 
-### Make a Plan
+### 🗺️ Make a Plan
+
 - Check your feedback on last week's issue tracker for a review and tips!
-- Open issues for your plan in the [issue tracker](/repo/issues).
+- Open issues for your plan in the [issue tracker](/../../issues).
 - Commit at least once per issue.
 - Reference issues from commit messages using `Fixes #N` to automatically close them.
 
@@ -48,7 +49,7 @@ At the Campus of the Royal Institute of Technology in Stockholm, Sweden, there e
 
 If you are already familiar with `classes` and `objects`, you may want to skip directly to exercise 2.2 -- Fields. We won't look at the code you write for the two first tasks, but it might be a good idea to go through these exercises if you are new to classes and objects. 
 
-#### Exercise 2.0 Our indamon journey begins!
+#### Exercise 2.0 -- Our indamon journey begins!
 
 > **Assistant's Note:** If you are familiar with the benefits of Object-Oriented Programming, you may skip exercise 2.0 and 2.1.
 
@@ -87,8 +88,10 @@ Now, let's move on to creating our very first indamon. Add the main method provi
 
 Test your code and check that everything works before continuing.
 
-#### Exercise 2.1 More indamons
-In the previous exercise, you successfully created an indamon. However, the indamon realm is vast, and there are many more fascinating creatures to discover. Let's broaden our horizons by creating two additional indamons, bringing the total count to three. Just like before, we'll print the information of all three indamons to the console. 
+[Open an issue for Exercise 2.0](/../../issues/new?title=Exercise+2.0+--+Our+indamon+journey+begins!)
+
+#### Exercise 2.1 -- More indamons
+In the previous exercise, you successfully created an indamon. However, the indamon realm is vast, and there are many more fascinating creatures to discover. Let's broaden our horizons by creating two additional indamons, bringing the total count to three. Just like before, we'll print the information of all three indamons to the console.
 
 > **Assistant's Note:** It might be effective to copy-paste the code you already have and rename the variables. 
 
@@ -109,6 +112,8 @@ When we create an object from the Indamon class, it's like bringing that bluepri
 </details>
 
 By using classes and objects, we can easily create, manage, and manipulate data in a structured way. The class provides the blueprint or template, defining the common properties and behaviors, while the objects are the actual instances that possess specific values and behaviors based on that blueprint. In the next task, we will recreate our first indamon as an object. 
+
+[Open an issue for Exercise 2.1](/../../issues/new?title=Exercise+2.1+--+More+indamons)
 
 #### Exercise 2.2 -- Fields
 Let's create the indamon class from the start. If you skipped the two first tasks, create a new Java file called `Indamon.java` in the [`src`](src) folder and define the class `Indamon`within it containing a main method. If you followed exercises 2.0 and 2.1, clear the main method from its content. Instead of creating the variables to store the indamons data inside of the main method, we want to use [fields](https://docs.oracle.com/javase/tutorial/java/javaOO/variables.html). Fields are just variables that belong to a specific class or object and represent the state of that object. They are written outside of the main method but within the class itself. Create the following fields for the Indamon class but don't assign any values to them yet! 
@@ -189,6 +194,8 @@ If done correctly, the main method provided in Example 2 should compile and prin
   ```
 </details>
 
+[Open an issue for Exercise 2.2](/../../issues/new?title=Exercise+2.2+--+Fields)
+
 #### Exercise 2.3 -- Getters and Setters
 A defining concept in object-oriented programming is [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)). Encapsulation means preventing direct access to the state of your indamon from outside the object. This can be done by setting the [access modifiers](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html) of the fields in the indamon class to `private`.
 
@@ -254,6 +261,8 @@ To use the setters and getters we use the dot (.) operator just like we did to a
   ```
 </details>
 
+[Open an issue for Exercise 2.3](/../../issues/new?title=Exercise+2.3+--+Getters+and+Setters)
+
 #### Exercise 2.4 -- Constructor
 Example 3 might seem tedious as you're setting each field value individually. A more efficient way is to use a constructor. Constructors let you provide all the attribute values at once when you create a new object. They take in these values as arguments, and then assign them to the fields, either directly or using mutators.
 
@@ -297,8 +306,12 @@ Replace the `accessors` used to assign values with a call to the constructor. Si
 
 If you want to change any of the fields later, you can still call the setter methods as before. 
 
+[Open an issue for Exercise 2.4](/../../issues/new?title=Exercise+2.4+--+Constructor)
+
 #### Exercise 2.5 -- More indamons, (again)
 Add two more indamon objects using the constructor. Compared to the previous approach, it should now be clear how much more efficient and compact it is to wrap functionality inside a class.
+
+[Open an issue for Exercise 2.5](/../../issues/new?title=Exercise+2.5+--+More+indamons,+(again))
 
 #### Exercise 2.6 -- `printInfo()`
 By adding a class we have improved the scalability and maintainability of the indamons. Let's also improve the way we print the indamons information to the terminal. Take a look at Example 5 and implement a method called `printInfo()`. The return type should be `void`. 
@@ -327,6 +340,8 @@ By adding a class we have improved the scalability and maintainability of the in
   ```
 
 </details>
+
+[Open an issue for Exercise 2.6](/../../issues/new?title=Exercise+2.6+--+printInfo())
 
 #### Exercise 2.7 -- Indamon, attack!
 Indamons are fierce creatures, and now we want to model a fight between them. To abstract this new functionality you must implement a method called `attack` which will receive an indamon object as an argument that represents the opponent in battle. If indamon *A* is attacking indamon *B*, the damage done is following the formula: 
@@ -360,6 +375,8 @@ Inside the `attack` method you can access and modify the fields just like you di
   ```
 
 </details>
+
+[Open an issue for Exercise 2.7](/../../issues/new?title=Exercise+2.7+--+Indamon,+attack!)
 
 #### Exercise 2.8 -- Variable Shadowing
 Take a look at the *Variable shadowing*-examples below. You might be asked to explain how to fix this example in class, so be prepared.
@@ -405,7 +422,7 @@ public class Horse {
 
 > **Assistant's Note:** Think about the *local scope*, *global variables* and *instance fields* of the provided examples.
 
-### ❎ Checklist 
+### ❎ Checklist
 - [ ] Cloned your repository to your local computer
 - [ ] Made a solid plan using issues
 - [ ] Completed all exercises to be best of your ability
