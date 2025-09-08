@@ -26,5 +26,4 @@ fn main() {
 
     eprintln!("Kattis print this comment to an irrelevant stream!");
     println!("{amount}");
-
 }
